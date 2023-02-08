@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    background-image: url(/image/images.jpg);
+}
+
+h1{
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -45px;
+    margin-left: 500px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+ul li a:hover{
+ color: chartreuse;
+}
+
+.box-1{
+    margin-top: 160px;
+    margin-left: 245px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.box-2{
+  background-color: cadetblue;
+  color: black;
+}
+
+.box-3{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.box-4{
+    margin-left: 180px;
+}
+
+
+.box-1:hover{
+    background-color: blue;
+}
